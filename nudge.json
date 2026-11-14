@@ -1,0 +1,85 @@
+{
+  "optionalFeatures": {
+    "asynchronousSoftwareUpdate": false,
+    "acceptableApplicationBundleIDs": ["us.zoom.xos"],
+    "attemptToFetchMajorUpgrade": false,
+    "acceptableUpdatePreparingUsage": true,
+    "aggressiveUserExperience": true,
+    "acceptableScreenSharingUsage": false,
+    "aggressiveUserFullScreenExperience": false,
+    "acceptableCameraUsage": true,
+    "utilizeSOFAFeed": false,
+    "attemptToCheckForSupportedDevice": false,
+    "enforceMinorUpdates": true
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL": "https://toolbox.houzz.com/a/solutions/articles/10000067140",
+      "requiredInstallationDate": "2026-12-10T00:00:00Z",
+      "requiredMinimumOSVersion": "15.8.3",
+      "actionButtonPath": "jamfselfservice://content?entity=policy&id=2669&action=view",
+      "targetedOSVersionsRule": "default"
+    },
+    {
+      "aboutUpdateURL": "https://toolbox.houzz.com/a/solutions/articles/10000067140",
+      "requiredInstallationDate": "2026-12-10T00:00:00Z",
+      "requiredMinimumOSVersion": "15.8.3",
+      "actionButtonPath": "jamfselfservice://content?entity=policy&id=2669&action=view",
+      "targetedOSVersionsRule": "14"
+    },
+    {
+      "aboutUpdateURL": "https://toolbox.houzz.com/a/solutions/articles/10000067140",
+      "requiredInstallationDate": "2026-12-10T00:00:00Z",
+      "requiredMinimumOSVersion": "15.8.3",
+      "targetedOSVersionsRule": "15"
+    },
+    {
+      "aboutUpdateURL": "https://toolbox.houzz.com/a/solutions/articles/10000067140",
+      "requiredInstallationDate": "2026-12-10T00:00:00Z",
+      "requiredMinimumOSVersion": "26.7.3",
+      "targetedOSVersionsRule": "26"
+    },
+    {
+      "aboutUpdateURL": "https://toolbox.houzz.com/a/solutions/articles/10000067140",
+      "requiredInstallationDate": "2026-12-10T00:00:00Z",
+      "requiredMinimumOSVersion": "27.2.1",
+      "targetedOSVersionsRule": "27"
+    }
+  ],
+  "userExperience": {
+    "allowUserQuitDeferrals": true,
+    "allowedDeferrals": 40,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 900,
+    "imminentRefreshCycle": 1800,
+    "imminentWindowTime": 24,
+    "initialRefreshCycle": 18000,
+    "noTimers": false,
+    "nudgeRefreshCycle": 300,
+    "allowGracePeriods": true,
+    "randomDelay": false
+  },
+  "userInterface": {
+    "simpleMode": false,
+    "iconDarkPath": "/usr/local/houzzit/Houzz_s_rgb_512x512.png",
+    "iconLightPath": "/usr/local/houzzit/Houzz_s_rgb_512x512.png",
+    "forceScreenShotIcon": false,
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Update Device",
+        "informationButtonText": "How To Update?",
+        "mainContentHeader": "This update requires your device to restart",
+        "mainContentNote": "Please click the “How To Update?” link on the bottom left for a Toolbox article with a video and instructions how to proceed with the update or upgrade.",
+        "mainContentSubHeader": "Updates can take around an hour to complete.",
+        "mainContentText": "Your Houzz issued device requires a fully up-to-date operating system to ensure that IT can accurately protect your device.\n\nAs soon as you are able, please save and back up your work and install updates.\n\nThe macOS update can take up to an hour to complete, please make sure you have the time allotted before starting the update.\n\nIf you have any questions, submit a ticket at https://toolbox.houzz.com/support/home.",
+        "mainHeader": "Action Required - Your device requires a security update",
+        "primaryQuitButtonText": "Ask Me Later",
+        "secondaryQuitButtonText": "I Understand",
+        "subHeader": "A friendly reminder from your Houzz IT team"
+      }
+    ]
+  }
+}
