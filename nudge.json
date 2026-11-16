@@ -42,7 +42,7 @@
     {
       "aboutUpdateURL": "https://toolbox.houzz.com/a/solutions/articles/10000067140",
       "requiredInstallationDate": "2026-12-10T00:00:00Z",
-      "requiredMinimumOSVersion": "27.2.1",
+      "requiredMinimumOSVersion": "27.3.1",
       "targetedOSVersionsRule": "27"
     }
   ],
